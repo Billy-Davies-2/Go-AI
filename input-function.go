@@ -1,7 +1,9 @@
 package graphinput
 
-import "math"
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 // storing the function to vizualize.
 

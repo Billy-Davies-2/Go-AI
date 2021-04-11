@@ -1,16 +1,16 @@
 package hillclimb
 
-import "math"
-import "container/list"
-
 // Hill climbers algorithm.
 // Gathers all cardinal directions to traverse, then chooses the optimal route.
-func hillClimb(graphFunction func, stepSize float64, xMin float64, xMax float64, yMin float64, yMax float64) list {
+func hillClimb(graphFunction, stepSize, xMin, xMax, yMin, yMax float64) []float64 {
+	var rc = make([]float64, 100)
 
+	return rc
 }
 
-
 // Random restart library function, which will perform the hill climb but randomly select another point.
-func hillClimbRandomRestart(graphFunction func, stepSize float64, xMin float64, xMax float64, yMin float64, yMax float64) list {
+func hillClimbRandomRestart(graphFunction, stepSize, xMin, xMax, yMin, yMax float64) []float64 {
+	var rc = make([]float64, 100)
 
-})
+	return rc
+}
